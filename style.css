@@ -1,0 +1,113 @@
+*{
+	padding:0x;
+	margin:0px;
+	font-family:Roboto;
+	color:#FFFFFF;
+		
+}
+
+body{
+	
+	background-color:#000000;
+
+}
+
+.bg1{
+	height: 100px;
+	width: 100%;
+	background-image: url(bg1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+	
+}
+
+h1{
+    text-align: center;
+	padding-top: 30px;
+	color: #000000;
+}
+
+
+p{
+	padding-top: 40px;
+	padding:20px;
+	text-align:center;
+	
+}
+
+.uno{
+	height:200px;
+	background-attachment:fixed;
+	background-image:url(1.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+.dos{
+	height:200px;
+	background-attachment:fixed;
+	background-image:url(2.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.tres{
+	height:200px;
+	background-attachment:fixed;
+	background-image:url(3.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+.cuatro{
+	height:200px;
+	background-attachment:fixed;
+	background-image:url(4.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+
+.panecillocielo{
+	
+	z-index:1;
+	position: absolute;
+	margin-top: 0px;
+	display: inline;
+	padding-left: 100px;
+}
+
+.panecillociudad{
+	position: absolute;
+	z-index:2;
+	display: inline;
+	padding-left: 100px;
+}
+
+.paneclloverde
+{
+	position: absolute;
+	z-index:3;
+	display: inline;
+	padding-left: 100px;
+}
+	
+.panecillovirgen{
+	
+	position: relative;
+	z-index:4;
+	padding-left:700px;
+	
+}	
+
+.foot{
+	background-color:#4D4D4D;
+	padding: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 40px;
+	text-align: center;
+	font-size: 20px;
+	
+	
+}
